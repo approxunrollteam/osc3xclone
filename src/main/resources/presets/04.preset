@@ -1,0 +1,20 @@
+#Oscillator types - SINE, TRIANGLE, SQUARE, SAW, NOISE
+osc1: saw
+osc2: sine
+osc3: triangle
+#Detune of oscillators 2 and 3 (-24 to 24 semitones)
+detune2: -12.0
+detune3: +4.0
+#AMP from 1.0 (max) to 0.0 (silence)
+level1: 0.6
+level2: 0.5
+level3: 0.3
+#Pan from -1.0 (full left) to 1.0 (right)
+pan1: -0.5
+pan2: 0.5
+pan3: 0.2
+#Filter types - LowPass, HighPass, BandPass
+filter: BandPass
+filterFreq: 1750.0
+filterQ: 2.1
+
